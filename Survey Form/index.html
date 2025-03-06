@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Streaming Platform Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Favorite Streaming Platform Survey</h1>
+    </header>
+    
+    <form action="#" method="POST" class="survey-form">
+      <h2>Tell us about your favorite streaming platform</h2>
+      
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="platform">Favorite Streaming Platform:</label>
+        <select id="platform" name="platform" required>
+          <option value="">Select your favorite platform</option>
+          <option value="netflix">Netflix</option>
+          <option value="hulu">Hulu</option>
+          <option value="disney+">Disney+</option>
+          <option value="amazon_prime">Amazon Prime Video</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="frequency">How often do you use this platform?</label>
+        <div class="radio-group">
+          <input type="radio" id="daily" name="frequency" value="daily">
+          <label for="daily">Daily</label>
+          <input type="radio" id="weekly" name="frequency" value="weekly">
+          <label for="weekly">Weekly</label>
+          <input type="radio" id="monthly" name="frequency" value="monthly">
+          <label for="monthly">Monthly</label>
+        </div>
+      </div>
+      
+      <div class="form-group">
+        <label for="content">What type of content do you watch most?</label>
+        <input type="text" id="content" name="content" placeholder="e.g., Movies, TV Shows, Documentaries" required>
+      </div>
+      
+      <div class="form-group">
+        <button type="submit" class="submit-btn">Submit Survey</button>
+      </div>
+    </form>
+  </div>
+  
+  <footer>
+    <p>&copy; 2025 Streaming Platform Survey. All rights reserved.</p>
+  </footer>
+</body>
+</html>
